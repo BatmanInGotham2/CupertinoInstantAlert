@@ -1,0 +1,21 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "cb3268fa1dec98df602fa5bf4ac4782c"
+build_time: [545021751, 634687000]
+inputs:
+  "/Users/gautam/Desktop/Tech/Computer Programming/Swift/CupertinoInstantAlert/Pods/Alamofire/Source/AFError.swift": [544999804, 0]
+  "/Users/gautam/Desktop/Tech/Computer Programming/Swift/CupertinoInstantAlert/Pods/Alamofire/Source/Alamofire.swift": [544999804, 0]
+  "/Users/gautam/Desktop/Tech/Computer Programming/Swift/CupertinoInstantAlert/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [544999804, 0]
+  "/Users/gautam/Desktop/Tech/Computer Programming/Swift/CupertinoInstantAlert/Pods/Alamofire/Source/MultipartFormData.swift": [544999804, 0]
+  "/Users/gautam/Desktop/Tech/Computer Programming/Swift/CupertinoInstantAlert/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [544999804, 0]
+  "/Users/gautam/Desktop/Tech/Computer Programming/Swift/CupertinoInstantAlert/Pods/Alamofire/Source/Notifications.swift": [544999804, 0]
+  "/Users/gautam/Desktop/Tech/Computer Programming/Swift/CupertinoInstantAlert/Pods/Alamofire/Source/ParameterEncoding.swift": [544999804, 0]
+  "/Users/gautam/Desktop/Tech/Computer Programming/Swift/CupertinoInstantAlert/Pods/Alamofire/Source/Request.swift": [544999804, 0]
+  "/Users/gautam/Desktop/Tech/Computer Programming/Swift/CupertinoInstantAlert/Pods/Alamofire/Source/Response.swift": [544999804, 0]
+  "/Users/gautam/Desktop/Tech/Computer Programming/Swift/CupertinoInstantAlert/Pods/Alamofire/Source/ResponseSerialization.swift": [544999804, 0]
+  "/Users/gautam/Desktop/Tech/Computer Programming/Swift/CupertinoInstantAlert/Pods/Alamofire/Source/Result.swift": [544999804, 0]
+  "/Users/gautam/Desktop/Tech/Computer Programming/Swift/CupertinoInstantAlert/Pods/Alamofire/Source/ServerTrustPolicy.swift": [544999804, 0]
+  "/Users/gautam/Desktop/Tech/Computer Programming/Swift/CupertinoInstantAlert/Pods/Alamofire/Source/SessionDelegate.swift": [544999804, 0]
+  "/Users/gautam/Desktop/Tech/Computer Programming/Swift/CupertinoInstantAlert/Pods/Alamofire/Source/SessionManager.swift": [544999804, 0]
+  "/Users/gautam/Desktop/Tech/Computer Programming/Swift/CupertinoInstantAlert/Pods/Alamofire/Source/TaskDelegate.swift": [544999804, 0]
+  "/Users/gautam/Desktop/Tech/Computer Programming/Swift/CupertinoInstantAlert/Pods/Alamofire/Source/Timeline.swift": [544999804, 0]
+  "/Users/gautam/Desktop/Tech/Computer Programming/Swift/CupertinoInstantAlert/Pods/Alamofire/Source/Validation.swift": [544999804, 0]

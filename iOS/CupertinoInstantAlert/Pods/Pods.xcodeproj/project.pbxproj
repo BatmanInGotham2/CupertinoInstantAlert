@@ -1,0 +1,1488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827F209A088BC2F3F427265ED07CB4A1 /* Timeline.swift */; };
+		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C54FAC6B35871BF0F3D5C15C28639F26 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CF4C7B302E94FAB6D8BE8FEB447B947 /* Pods-CupertinoInstantAlert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55561141E3F35173F46C396287CB6609 /* Pods-CupertinoInstantAlert-dummy.m */; };
+		205F9C3368F10CF5448185A7D05CF4FC /* Pods-CupertinoInstantAlertTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC07FBFC2C4F16BF0CE5E01FDB7210EC /* Pods-CupertinoInstantAlertTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C90CF95A1DD5DED33F13FE9489AE931 /* Pods-CupertinoInstantAlertUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C509B5B1505A7AA1686502C88923B1C2 /* Pods-CupertinoInstantAlertUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3159D7CAFD56B809F40CA3330DA10889 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D97620C19ADB7777E9D5170FC691E5 /* TaskDelegate.swift */; };
+		3F564ACEF0E8469DD52E7859FD4CD0AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93064C5947FC842C7834F8837F8478D /* Request.swift */; };
+		541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 3994F3158AD01C03CFB8492EB6389202 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		583BA3913D2BF8D77FB9359194B3D708 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CB715BA9C50E804ED030E25120D8F9 /* SwiftyJSON.swift */; };
+		58F9D9AB896163B3AF86FE9886781ABF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = A283A1778999A8762A4CE2CFDFE5B122 /* DispatchQueue+Alamofire.swift */; };
+		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D1C01F71F1D04B0F39F8265E821D26 /* ServerTrustPolicy.swift */; };
+		6C4717A247A68C20E61DFAAE69823E34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		7261C3E2E51B400FEA613B4A9B65BD33 /* Pods-CupertinoInstantAlertUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C457A47DB12DF6F6DF819021880456A9 /* Pods-CupertinoInstantAlertUITests-dummy.m */; };
+		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5245B93E4D35CBA5372B7C360C49DC5 /* SessionDelegate.swift */; };
+		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF763B945EC3C223BA85741FC68CBBB /* Result.swift */; };
+		81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 163DC2A4038D8DF48D64806370F27FB1 /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8952E3BEECA78CDC5C8F7A948F3171EE /* Pods-CupertinoInstantAlert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B963A5949F7638D1DCBFDA0B2928ACE3 /* Pods-CupertinoInstantAlert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C5EB80C1E9859BC7C45559EEB71BBA8 /* Pods-CupertinoInstantAlertTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE2DB754EB6EC682E7C10E5F79C4597 /* Pods-CupertinoInstantAlertTests-dummy.m */; };
+		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E366D6FB918317D2E13F91E9BACC8A /* AFError.swift */; };
+		A04BFC558D69E7DBB68023C80A9CFE4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D9B53ABF80FDAA01C987BDF27D8446 /* NetworkReachabilityManager.swift */; };
+		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC699AC8226A8501CEE33E7A5AE9DA97 /* Alamofire-dummy.m */; };
+		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0D56BB6C8863EC63D2B35A345DD070 /* SessionManager.swift */; };
+		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B517BDC7F7800B9DA3892B137B7E6380 /* MultipartFormData.swift */; };
+		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03291475A9EBB689BD0C3A1B07DA5E0 /* Validation.swift */; };
+		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5799A05B89325B98CB1D74FB8C529A1F /* ParameterEncoding.swift */; };
+		C8F36E246D1A6706523D7EEBB99512A2 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5828DA4C68C4587A3D249B255AAA230 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5345B9AAE8E3E71A322095D604FCE80F /* Response.swift */; };
+		DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D7754A2D06B13983CE5C1799B2CEE4F /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD028D84A7BD2A2CC17F183568F5E80D /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 10BC28936452900B95448FA392BB375E /* SwiftyJSON-dummy.m */; };
+		DF25B681A6CC0965D78DF67625203753 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CABF9061402FDDC1E085E9322341863 /* Notifications.swift */; };
+		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4489EF61A38FDBF764A69808CC04A1 /* ResponseSerialization.swift */; };
+		F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = E78B479509E3A7F4444C4374D0C63DB7 /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2ECAB1C6A19A4A63842D1EBFF3F1B20 /* Alamofire.swift */; };
+		FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C32879FF0D4E57B53E155430D49F81A /* GoogleToolboxForMac-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		076AD261ED57895B770BEA8C576CCA6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17DD5A19180046A5CA254AAE718A8A4F;
+			remoteInfo = SwiftyJSON;
+		};
+		2445B6FF4A52EC1391874F28B82DB4B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00103D6C821BE85971C563025527BA5D;
+			remoteInfo = GoogleToolboxForMac;
+		};
+		B5497DB08B2E5275540ABA2DE6D821CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
+			remoteInfo = Alamofire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		028A91247DD49242D5B3E2A377B9CC7F /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		0B4489EF61A38FDBF764A69808CC04A1 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		0C85D6F2CFA2E9D39A04B49ADCA98E5B /* Pods_CupertinoInstantAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CupertinoInstantAlert.framework; path = "Pods-CupertinoInstantAlert.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CFDF469124E0B39BEB68873566E55F1 /* Pods-CupertinoInstantAlert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CupertinoInstantAlert.release.xcconfig"; sourceTree = "<group>"; };
+		0E6685F67D2CE2449235B69484B2FFE1 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F504D45F54B3038E335E455F8A5AB0B /* Pods-CupertinoInstantAlertTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CupertinoInstantAlertTests-frameworks.sh"; sourceTree = "<group>"; };
+		10BC28936452900B95448FA392BB375E /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		13B832BDD6B2E8DA18E9BE267B76FCF6 /* Pods-CupertinoInstantAlertTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CupertinoInstantAlertTests.debug.xcconfig"; sourceTree = "<group>"; };
+		163DC2A4038D8DF48D64806370F27FB1 /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
+		1AF763B945EC3C223BA85741FC68CBBB /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		1D49AEB6D402AC95819BB3A3FE4DFA48 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		1E693AE61CA69605926C94DDA4E82F23 /* Pods-CupertinoInstantAlertTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CupertinoInstantAlertTests-resources.sh"; sourceTree = "<group>"; };
+		237165196E7EA4196FAB890836F5BF00 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		248511E902F60F5D913B55505F133E9D /* Pods-CupertinoInstantAlertTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CupertinoInstantAlertTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		25E9FD242A2DCFBA64155089280B07B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2844A538AAB36A40A32C5017E07C0174 /* Pods-CupertinoInstantAlertTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CupertinoInstantAlertTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2CCCA8A26BFF8C20FC00E6F4A39722EC /* Pods-CupertinoInstantAlertTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CupertinoInstantAlertTests.modulemap"; sourceTree = "<group>"; };
+		2D7754A2D06B13983CE5C1799B2CEE4F /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		2EE1FAF3458B35C03EE809FA1C3DB2CC /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3065C83319B48E5F9846567462F19FB2 /* Pods-CupertinoInstantAlertUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CupertinoInstantAlertUITests-resources.sh"; sourceTree = "<group>"; };
+		30D84802F21CA42E9448F15F9D3AA5DD /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		345D75694B1E45963782EEF6771B8522 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37AC62EE384BEC8D3E657B6F36F2607D /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		3994F3158AD01C03CFB8492EB6389202 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		39D47B8C20285F929229E3576597544E /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		49F66EBBE9C107FEC623F5B32B4F18CD /* Pods-CupertinoInstantAlert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CupertinoInstantAlert.modulemap"; sourceTree = "<group>"; };
+		4C32879FF0D4E57B53E155430D49F81A /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
+		50AFEBE860F9E5E0C7569479AD306CC0 /* Pods-CupertinoInstantAlertUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CupertinoInstantAlertUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5345B9AAE8E3E71A322095D604FCE80F /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		55561141E3F35173F46C396287CB6609 /* Pods-CupertinoInstantAlert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CupertinoInstantAlert-dummy.m"; sourceTree = "<group>"; };
+		564280D8A878B0166547953B4D367290 /* Pods-CupertinoInstantAlert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CupertinoInstantAlert.debug.xcconfig"; sourceTree = "<group>"; };
+		5799A05B89325B98CB1D74FB8C529A1F /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		5EE2DB754EB6EC682E7C10E5F79C4597 /* Pods-CupertinoInstantAlertTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CupertinoInstantAlertTests-dummy.m"; sourceTree = "<group>"; };
+		61CC211FAC11DAB6387F91120FB4F960 /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
+		63AA911CFAEE8F0306A7C44760627E37 /* Pods-CupertinoInstantAlertUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CupertinoInstantAlertUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		660E6D5A9B14221805ACFF98F4B7D0BE /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		67D559C0799F2F15DF2209F8136010DD /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		69A38920997E038256DC9249CC7B9127 /* Pods-CupertinoInstantAlertTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CupertinoInstantAlertTests.release.xcconfig"; sourceTree = "<group>"; };
+		6B455A55E202673653695BA5E779FD7A /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
+		736B06BD96F87693A1448D149B5220C5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		781B58C00F56E89867A7318D24B89851 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		78EA0693750EB372BD8D91A5FC91D983 /* Pods_CupertinoInstantAlertUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CupertinoInstantAlertUITests.framework; path = "Pods-CupertinoInstantAlertUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		827F209A088BC2F3F427265ED07CB4A1 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		82CB715BA9C50E804ED030E25120D8F9 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		85E366D6FB918317D2E13F91E9BACC8A /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		8B8F53F8088CAC5FE49BD248EBBAD066 /* Pods-CupertinoInstantAlert-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CupertinoInstantAlert-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8BFBD45CF415CF9DEDB0464D53ED9611 /* Pods-CupertinoInstantAlertUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CupertinoInstantAlertUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8CABF9061402FDDC1E085E9322341863 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		90A3E67151E9512C034CF4CFC93D5927 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		91E48DEC22B33208F62220A1DF81F63B /* Pods-CupertinoInstantAlertUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CupertinoInstantAlertUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0D97620C19ADB7777E9D5170FC691E5 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		A283A1778999A8762A4CE2CFDFE5B122 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		A2ECAB1C6A19A4A63842D1EBFF3F1B20 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		A3D9B53ABF80FDAA01C987BDF27D8446 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		AE8B17E9D136F39E6DBD9ABF85E5866A /* Pods-CupertinoInstantAlertUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CupertinoInstantAlertUITests.modulemap"; sourceTree = "<group>"; };
+		B03291475A9EBB689BD0C3A1B07DA5E0 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		B3E66DC242B81F1ED96921C7567601C2 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		B517BDC7F7800B9DA3892B137B7E6380 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		B5828DA4C68C4587A3D249B255AAA230 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		B963A5949F7638D1DCBFDA0B2928ACE3 /* Pods-CupertinoInstantAlert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CupertinoInstantAlert-umbrella.h"; sourceTree = "<group>"; };
+		BF90817A1A7D1889FE5F3DA8EA9AD5A2 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		C04373536AD4F9A2EF2BC2B9280DA75D /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
+		C35C3E2F8010B42B052825FCDC685B97 /* Pods-CupertinoInstantAlert-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CupertinoInstantAlert-frameworks.sh"; sourceTree = "<group>"; };
+		C457A47DB12DF6F6DF819021880456A9 /* Pods-CupertinoInstantAlertUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CupertinoInstantAlertUITests-dummy.m"; sourceTree = "<group>"; };
+		C509B5B1505A7AA1686502C88923B1C2 /* Pods-CupertinoInstantAlertUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CupertinoInstantAlertUITests-umbrella.h"; sourceTree = "<group>"; };
+		C54FAC6B35871BF0F3D5C15C28639F26 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		C5FA38EB80F9330F8FA15657A28C8036 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		C9D1C01F71F1D04B0F39F8265E821D26 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		CA4298C3F9755A70102A8E2F94D467D3 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D044AB88E62504309428DAE569A681C5 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5245B93E4D35CBA5372B7C360C49DC5 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		DA92FC2B21F1B5344ADDB6521B5A3273 /* Pods_CupertinoInstantAlertTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CupertinoInstantAlertTests.framework; path = "Pods-CupertinoInstantAlertTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC07FBFC2C4F16BF0CE5E01FDB7210EC /* Pods-CupertinoInstantAlertTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CupertinoInstantAlertTests-umbrella.h"; sourceTree = "<group>"; };
+		DC699AC8226A8501CEE33E7A5AE9DA97 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		DFE966EC25A25DF5C44D6A56370C8D4C /* Pods-CupertinoInstantAlert-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CupertinoInstantAlert-acknowledgements.plist"; sourceTree = "<group>"; };
+		E099B2EA5F71DC8303F6AACC9F2F173A /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		E78B479509E3A7F4444C4374D0C63DB7 /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		E89A86BF20348948F26D3B0750D0E872 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		EA0D56BB6C8863EC63D2B35A345DD070 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		EB4E631D8BB5D480A57A6F7CD7410270 /* Pods-CupertinoInstantAlertUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CupertinoInstantAlertUITests-frameworks.sh"; sourceTree = "<group>"; };
+		EBF9BB074B306A789BE7DB6DB97A7192 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		F14EADDB36C02BE0B78B1BE7ADDE7BD1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2D3E0239F2F833A7C5B953AE6196A26 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		F433A3EFC0B58DBC94DEB86339D6603C /* Pods-CupertinoInstantAlert-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CupertinoInstantAlert-resources.sh"; sourceTree = "<group>"; };
+		F93064C5947FC842C7834F8837F8478D /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		F9540784D7853C70238FA451C37F66B1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFE88C952D8D4E8D91F7D2A152EA6B2 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		FE7937068945E598646F4B72715BA6F3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10511C8E5D2A5A5D8C9004C0D8726351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4717A247A68C20E61DFAAE69823E34 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		107835438AD8F93FDD405190E8050DF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF25B681A6CC0965D78DF67625203753 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24424C283579AB26EAB0C24BBF677547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F9D9AB896163B3AF86FE9886781ABF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99195E4207764744AEC07ECCBCD550EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A04BFC558D69E7DBB68023C80A9CFE4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD68BCF9C16978B8AAF8770C36212876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F564ACEF0E8469DD52E7859FD4CD0AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3159D7CAFD56B809F40CA3330DA10889 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		155EB5A27D7296C4EB1234062E296DBA /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				36C5283085333BEC5DA122B615570536 /* Frameworks */,
+			);
+			name = GoogleSymbolUtilities;
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		1660672B3E8C63039C01D1100B20D7FE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				61CC211FAC11DAB6387F91120FB4F960 /* GoogleToolboxForMac.modulemap */,
+				6B455A55E202673653695BA5E779FD7A /* GoogleToolboxForMac.xcconfig */,
+				4C32879FF0D4E57B53E155430D49F81A /* GoogleToolboxForMac-dummy.m */,
+				C04373536AD4F9A2EF2BC2B9280DA75D /* GoogleToolboxForMac-prefix.pch */,
+				163DC2A4038D8DF48D64806370F27FB1 /* GoogleToolboxForMac-umbrella.h */,
+				345D75694B1E45963782EEF6771B8522 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleToolboxForMac";
+			sourceTree = "<group>";
+		};
+		1D44F43CFB4907257E1DB4CACB00D1DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3E66DC242B81F1ED96921C7567601C2 /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2240F242047332CC0E80A578610062B8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F64F68EE19C5F11196557949A331C85D /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		235BA350AD979B2ADD780605DD149885 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E099B2EA5F71DC8303F6AACC9F2F173A /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2363FA3F7A3FD78B46C7E1CD3AA578C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF90817A1A7D1889FE5F3DA8EA9AD5A2 /* FirebaseCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30215565EBD6FD6EE0153E1149BE1010 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				CB7B2DD7D2FD656FDC10456DFA457AD4 /* Frameworks */,
+				7060D71D0792EAC2DD65D4E6F0D8488D /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		36C5283085333BEC5DA122B615570536 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2D3E0239F2F833A7C5B953AE6196A26 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39360C96701D2DF8E461D46E4C9342D6 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				2240F242047332CC0E80A578610062B8 /* Base */,
+				30215565EBD6FD6EE0153E1149BE1010 /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		3D5B687A830A9080E2138F03DF6C4885 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				CFC8DCB4424ED22323907CF2E879138A /* Frameworks */,
+			);
+			name = FirebaseAnalytics;
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		4040F37D1B00DBC1692349A573AA82AC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				028A91247DD49242D5B3E2A377B9CC7F /* Firebase.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		450D073C2993C5650E8BCD22F90FDAC9 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				4040F37D1B00DBC1692349A573AA82AC /* Core */,
+			);
+			name = Firebase;
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		49EFD8D58B2270E0A0A233CC6E3C7FD8 /* Pods-CupertinoInstantAlertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				736B06BD96F87693A1448D149B5220C5 /* Info.plist */,
+				AE8B17E9D136F39E6DBD9ABF85E5866A /* Pods-CupertinoInstantAlertUITests.modulemap */,
+				63AA911CFAEE8F0306A7C44760627E37 /* Pods-CupertinoInstantAlertUITests-acknowledgements.markdown */,
+				8BFBD45CF415CF9DEDB0464D53ED9611 /* Pods-CupertinoInstantAlertUITests-acknowledgements.plist */,
+				C457A47DB12DF6F6DF819021880456A9 /* Pods-CupertinoInstantAlertUITests-dummy.m */,
+				EB4E631D8BB5D480A57A6F7CD7410270 /* Pods-CupertinoInstantAlertUITests-frameworks.sh */,
+				3065C83319B48E5F9846567462F19FB2 /* Pods-CupertinoInstantAlertUITests-resources.sh */,
+				C509B5B1505A7AA1686502C88923B1C2 /* Pods-CupertinoInstantAlertUITests-umbrella.h */,
+				91E48DEC22B33208F62220A1DF81F63B /* Pods-CupertinoInstantAlertUITests.debug.xcconfig */,
+				50AFEBE860F9E5E0C7569479AD306CC0 /* Pods-CupertinoInstantAlertUITests.release.xcconfig */,
+			);
+			name = "Pods-CupertinoInstantAlertUITests";
+			path = "Target Support Files/Pods-CupertinoInstantAlertUITests";
+			sourceTree = "<group>";
+		};
+		4CA30ABDE5CE20F9D52297FFC4975D9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EE1FAF3458B35C03EE809FA1C3DB2CC /* Alamofire.framework */,
+				0E6685F67D2CE2449235B69484B2FFE1 /* GoogleToolboxForMac.framework */,
+				0C85D6F2CFA2E9D39A04B49ADCA98E5B /* Pods_CupertinoInstantAlert.framework */,
+				DA92FC2B21F1B5344ADDB6521B5A3273 /* Pods_CupertinoInstantAlertTests.framework */,
+				78EA0693750EB372BD8D91A5FC91D983 /* Pods_CupertinoInstantAlertUITests.framework */,
+				D044AB88E62504309428DAE569A681C5 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D3E74BB4D5E9891F5D32D9B5C35191D /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				2363FA3F7A3FD78B46C7E1CD3AA578C9 /* Frameworks */,
+			);
+			name = FirebaseCore;
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
+		57C047DF7D4222DF1627CF16DDE2205F /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				D92B1BF70DFC31588127EBECCB7E4067 /* Defines */,
+				70C5A13A66B95AA831F948FEDA41F8A7 /* NSData+zlib */,
+				1660672B3E8C63039C01D1100B20D7FE /* Support Files */,
+			);
+			name = GoogleToolboxForMac;
+			path = GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
+		63DC964781DB1AA342F857036B565391 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				1D44F43CFB4907257E1DB4CACB00D1DE /* Frameworks */,
+				9BF96C465CFE94C8A14926674845D720 /* Resources */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		7060D71D0792EAC2DD65D4E6F0D8488D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAFE88C952D8D4E8D91F7D2A152EA6B2 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		70C5A13A66B95AA831F948FEDA41F8A7 /* NSData+zlib */ = {
+			isa = PBXGroup;
+			children = (
+				2D7754A2D06B13983CE5C1799B2CEE4F /* GTMNSData+zlib.h */,
+				E78B479509E3A7F4444C4374D0C63DB7 /* GTMNSData+zlib.m */,
+			);
+			name = "NSData+zlib";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		781597EB1B72F60131E4D976768DDD15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				781B58C00F56E89867A7318D24B89851 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F643AC3FA62DAFAC36174DF36333C578 /* Pods */,
+				4CA30ABDE5CE20F9D52297FFC4975D9B /* Products */,
+				BEC2056F1CE7DF7FFCF8236461AFFCAE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E90DA90E1168C27FBD1E5407D81A499 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA4298C3F9755A70102A8E2F94D467D3 /* Alamofire.modulemap */,
+				237165196E7EA4196FAB890836F5BF00 /* Alamofire.xcconfig */,
+				DC699AC8226A8501CEE33E7A5AE9DA97 /* Alamofire-dummy.m */,
+				67D559C0799F2F15DF2209F8136010DD /* Alamofire-prefix.pch */,
+				C54FAC6B35871BF0F3D5C15C28639F26 /* Alamofire-umbrella.h */,
+				FE7937068945E598646F4B72715BA6F3 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		8654A9701DBC2DD0562932C1D31E20F5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F14EADDB36C02BE0B78B1BE7ADDE7BD1 /* Info.plist */,
+				C5FA38EB80F9330F8FA15657A28C8036 /* SwiftyJSON.modulemap */,
+				E89A86BF20348948F26D3B0750D0E872 /* SwiftyJSON.xcconfig */,
+				10BC28936452900B95448FA392BB375E /* SwiftyJSON-dummy.m */,
+				660E6D5A9B14221805ACFF98F4B7D0BE /* SwiftyJSON-prefix.pch */,
+				B5828DA4C68C4587A3D249B255AAA230 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		86AA28C3E0A7B1A592B6535955276B16 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				85E366D6FB918317D2E13F91E9BACC8A /* AFError.swift */,
+				A2ECAB1C6A19A4A63842D1EBFF3F1B20 /* Alamofire.swift */,
+				A283A1778999A8762A4CE2CFDFE5B122 /* DispatchQueue+Alamofire.swift */,
+				B517BDC7F7800B9DA3892B137B7E6380 /* MultipartFormData.swift */,
+				A3D9B53ABF80FDAA01C987BDF27D8446 /* NetworkReachabilityManager.swift */,
+				8CABF9061402FDDC1E085E9322341863 /* Notifications.swift */,
+				5799A05B89325B98CB1D74FB8C529A1F /* ParameterEncoding.swift */,
+				F93064C5947FC842C7834F8837F8478D /* Request.swift */,
+				5345B9AAE8E3E71A322095D604FCE80F /* Response.swift */,
+				0B4489EF61A38FDBF764A69808CC04A1 /* ResponseSerialization.swift */,
+				1AF763B945EC3C223BA85741FC68CBBB /* Result.swift */,
+				C9D1C01F71F1D04B0F39F8265E821D26 /* ServerTrustPolicy.swift */,
+				D5245B93E4D35CBA5372B7C360C49DC5 /* SessionDelegate.swift */,
+				EA0D56BB6C8863EC63D2B35A345DD070 /* SessionManager.swift */,
+				A0D97620C19ADB7777E9D5170FC691E5 /* TaskDelegate.swift */,
+				827F209A088BC2F3F427265ED07CB4A1 /* Timeline.swift */,
+				B03291475A9EBB689BD0C3A1B07DA5E0 /* Validation.swift */,
+				7E90DA90E1168C27FBD1E5407D81A499 /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		92418DC4E1653E62C7A2E6B732EC30F9 /* Pods-CupertinoInstantAlert */ = {
+			isa = PBXGroup;
+			children = (
+				F9540784D7853C70238FA451C37F66B1 /* Info.plist */,
+				49F66EBBE9C107FEC623F5B32B4F18CD /* Pods-CupertinoInstantAlert.modulemap */,
+				8B8F53F8088CAC5FE49BD248EBBAD066 /* Pods-CupertinoInstantAlert-acknowledgements.markdown */,
+				DFE966EC25A25DF5C44D6A56370C8D4C /* Pods-CupertinoInstantAlert-acknowledgements.plist */,
+				55561141E3F35173F46C396287CB6609 /* Pods-CupertinoInstantAlert-dummy.m */,
+				C35C3E2F8010B42B052825FCDC685B97 /* Pods-CupertinoInstantAlert-frameworks.sh */,
+				F433A3EFC0B58DBC94DEB86339D6603C /* Pods-CupertinoInstantAlert-resources.sh */,
+				B963A5949F7638D1DCBFDA0B2928ACE3 /* Pods-CupertinoInstantAlert-umbrella.h */,
+				564280D8A878B0166547953B4D367290 /* Pods-CupertinoInstantAlert.debug.xcconfig */,
+				0CFDF469124E0B39BEB68873566E55F1 /* Pods-CupertinoInstantAlert.release.xcconfig */,
+			);
+			name = "Pods-CupertinoInstantAlert";
+			path = "Target Support Files/Pods-CupertinoInstantAlert";
+			sourceTree = "<group>";
+		};
+		9BF96C465CFE94C8A14926674845D720 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				37AC62EE384BEC8D3E657B6F36F2607D /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AAC86C2707F2A8CB018D72769A1A86B5 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				82CB715BA9C50E804ED030E25120D8F9 /* SwiftyJSON.swift */,
+				8654A9701DBC2DD0562932C1D31E20F5 /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDBD2674A246679F6B5681D907AE9FD7 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				235BA350AD979B2ADD780605DD149885 /* Frameworks */,
+			);
+			name = GoogleInterchangeUtilities;
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		BEC2056F1CE7DF7FFCF8236461AFFCAE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				92418DC4E1653E62C7A2E6B732EC30F9 /* Pods-CupertinoInstantAlert */,
+				D2A2C1B4525DEBBEB918562C4D43474F /* Pods-CupertinoInstantAlertTests */,
+				49EFD8D58B2270E0A0A233CC6E3C7FD8 /* Pods-CupertinoInstantAlertUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C001C947AE8738A81F75D3F4A877EB25 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				781597EB1B72F60131E4D976768DDD15 /* Frameworks */,
+			);
+			name = FirebaseInstanceID;
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		CB7B2DD7D2FD656FDC10456DFA457AD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D49AEB6D402AC95819BB3A3FE4DFA48 /* GoogleMaps.framework */,
+				EBF9BB074B306A789BE7DB6DB97A7192 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFC8DCB4424ED22323907CF2E879138A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39D47B8C20285F929229E3576597544E /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2A2C1B4525DEBBEB918562C4D43474F /* Pods-CupertinoInstantAlertTests */ = {
+			isa = PBXGroup;
+			children = (
+				25E9FD242A2DCFBA64155089280B07B6 /* Info.plist */,
+				2CCCA8A26BFF8C20FC00E6F4A39722EC /* Pods-CupertinoInstantAlertTests.modulemap */,
+				248511E902F60F5D913B55505F133E9D /* Pods-CupertinoInstantAlertTests-acknowledgements.markdown */,
+				2844A538AAB36A40A32C5017E07C0174 /* Pods-CupertinoInstantAlertTests-acknowledgements.plist */,
+				5EE2DB754EB6EC682E7C10E5F79C4597 /* Pods-CupertinoInstantAlertTests-dummy.m */,
+				0F504D45F54B3038E335E455F8A5AB0B /* Pods-CupertinoInstantAlertTests-frameworks.sh */,
+				1E693AE61CA69605926C94DDA4E82F23 /* Pods-CupertinoInstantAlertTests-resources.sh */,
+				DC07FBFC2C4F16BF0CE5E01FDB7210EC /* Pods-CupertinoInstantAlertTests-umbrella.h */,
+				13B832BDD6B2E8DA18E9BE267B76FCF6 /* Pods-CupertinoInstantAlertTests.debug.xcconfig */,
+				69A38920997E038256DC9249CC7B9127 /* Pods-CupertinoInstantAlertTests.release.xcconfig */,
+			);
+			name = "Pods-CupertinoInstantAlertTests";
+			path = "Target Support Files/Pods-CupertinoInstantAlertTests";
+			sourceTree = "<group>";
+		};
+		D92B1BF70DFC31588127EBECCB7E4067 /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				3994F3158AD01C03CFB8492EB6389202 /* GTMDefines.h */,
+			);
+			name = Defines;
+			sourceTree = "<group>";
+		};
+		DDDA1F8A782EF1A62D91C3053966BB88 /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				E30078C51BE34945AFCE8DF6CC66305F /* Frameworks */,
+			);
+			name = FirebaseDatabase;
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		E30078C51BE34945AFCE8DF6CC66305F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30D84802F21CA42E9448F15F9D3AA5DD /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F643AC3FA62DAFAC36174DF36333C578 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86AA28C3E0A7B1A592B6535955276B16 /* Alamofire */,
+				450D073C2993C5650E8BCD22F90FDAC9 /* Firebase */,
+				3D5B687A830A9080E2138F03DF6C4885 /* FirebaseAnalytics */,
+				4D3E74BB4D5E9891F5D32D9B5C35191D /* FirebaseCore */,
+				DDDA1F8A782EF1A62D91C3053966BB88 /* FirebaseDatabase */,
+				C001C947AE8738A81F75D3F4A877EB25 /* FirebaseInstanceID */,
+				BDBD2674A246679F6B5681D907AE9FD7 /* GoogleInterchangeUtilities */,
+				39360C96701D2DF8E461D46E4C9342D6 /* GoogleMaps */,
+				63DC964781DB1AA342F857036B565391 /* GooglePlaces */,
+				155EB5A27D7296C4EB1234062E296DBA /* GoogleSymbolUtilities */,
+				57C047DF7D4222DF1627CF16DDE2205F /* GoogleToolboxForMac */,
+				AAC86C2707F2A8CB018D72769A1A86B5 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F64F68EE19C5F11196557949A331C85D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90A3E67151E9512C034CF4CFC93D5927 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2CA39112EE960EA3E1D9F817344FFAD9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C90CF95A1DD5DED33F13FE9489AE931 /* Pods-CupertinoInstantAlertUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74C927F0E354D7AA3ADFE13CD079958C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				205F9C3368F10CF5448185A7D05CF4FC /* Pods-CupertinoInstantAlertTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53F73AA9FAE40EAC04133CBD02FBCBB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8F36E246D1A6706523D7EEBB99512A2 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC685780EB3DFE91EC4014926F67B377 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8952E3BEECA78CDC5C8F7A948F3171EE /* Pods-CupertinoInstantAlert-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */,
+				541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */,
+				DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */;
+			buildPhases = (
+				63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */,
+				F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */,
+				FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleToolboxForMac;
+			productName = GoogleToolboxForMac;
+			productReference = 0E6685F67D2CE2449235B69484B2FFE1 /* GoogleToolboxForMac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		00B7336649D299ADED59407573EAB255 /* Pods-CupertinoInstantAlertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2C9802ED862F1151C1B351781E97D39 /* Build configuration list for PBXNativeTarget "Pods-CupertinoInstantAlertUITests" */;
+			buildPhases = (
+				3596C731DF6DF10AD6189A17EDBC006E /* Sources */,
+				10511C8E5D2A5A5D8C9004C0D8726351 /* Frameworks */,
+				2CA39112EE960EA3E1D9F817344FFAD9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CupertinoInstantAlertUITests";
+			productName = "Pods-CupertinoInstantAlertUITests";
+			productReference = 78EA0693750EB372BD8D91A5FC91D983 /* Pods_CupertinoInstantAlertUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		17DD5A19180046A5CA254AAE718A8A4F /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4A04C94FD0B7CDC121264E5D48F7FA0 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				9A0CBBF12F5E5B0C491C249439178C2F /* Sources */,
+				24424C283579AB26EAB0C24BBF677547 /* Frameworks */,
+				A53F73AA9FAE40EAC04133CBD02FBCBB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = D044AB88E62504309428DAE569A681C5 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		224877B029480D3DF986814064146227 /* Pods-CupertinoInstantAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64A4EF39B0DF3068FA0B61AA0F6A1828 /* Build configuration list for PBXNativeTarget "Pods-CupertinoInstantAlert" */;
+			buildPhases = (
+				EAF482D1DC3AD892EF7815D713F56C35 /* Sources */,
+				107835438AD8F93FDD405190E8050DF7 /* Frameworks */,
+				EC685780EB3DFE91EC4014926F67B377 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				259B8AAE13D3099C9A4DE0254E343F6A /* PBXTargetDependency */,
+				F1DCF9D8D6C2FC79F5277EDCFDA9637D /* PBXTargetDependency */,
+				AFAD3D861187B0DC905114C7EA867CE0 /* PBXTargetDependency */,
+			);
+			name = "Pods-CupertinoInstantAlert";
+			productName = "Pods-CupertinoInstantAlert";
+			productReference = 0C85D6F2CFA2E9D39A04B49ADCA98E5B /* Pods_CupertinoInstantAlert.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				32B9974868188C4803318E36329C87FE /* Sources */,
+				99195E4207764744AEC07ECCBCD550EB /* Frameworks */,
+				B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 2EE1FAF3458B35C03EE809FA1C3DB2CC /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D3524C97360EC09F138250DE51745A40 /* Pods-CupertinoInstantAlertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9520AAFD1B4505B141E71CDBA6C3905 /* Build configuration list for PBXNativeTarget "Pods-CupertinoInstantAlertTests" */;
+			buildPhases = (
+				9F6B7371894C5A3C379CD658E1ACDBBB /* Sources */,
+				CD68BCF9C16978B8AAF8770C36212876 /* Frameworks */,
+				74C927F0E354D7AA3ADFE13CD079958C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CupertinoInstantAlertTests";
+			productName = "Pods-CupertinoInstantAlertTests";
+			productReference = DA92FC2B21F1B5344ADDB6521B5A3273 /* Pods_CupertinoInstantAlertTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4CA30ABDE5CE20F9D52297FFC4975D9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
+				00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */,
+				224877B029480D3DF986814064146227 /* Pods-CupertinoInstantAlert */,
+				D3524C97360EC09F138250DE51745A40 /* Pods-CupertinoInstantAlertTests */,
+				00B7336649D299ADED59407573EAB255 /* Pods-CupertinoInstantAlertUITests */,
+				17DD5A19180046A5CA254AAE718A8A4F /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32B9974868188C4803318E36329C87FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */,
+				A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */,
+				F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */,
+				61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */,
+				B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */,
+				A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */,
+				EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */,
+				BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */,
+				5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */,
+				CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */,
+				F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */,
+				7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */,
+				62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */,
+				7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */,
+				AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */,
+				3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */,
+				10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */,
+				BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3596C731DF6DF10AD6189A17EDBC006E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7261C3E2E51B400FEA613B4A9B65BD33 /* Pods-CupertinoInstantAlertUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */,
+				F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A0CBBF12F5E5B0C491C249439178C2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD028D84A7BD2A2CC17F183568F5E80D /* SwiftyJSON-dummy.m in Sources */,
+				583BA3913D2BF8D77FB9359194B3D708 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F6B7371894C5A3C379CD658E1ACDBBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C5EB80C1E9859BC7C45559EEB71BBA8 /* Pods-CupertinoInstantAlertTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF482D1DC3AD892EF7815D713F56C35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF4C7B302E94FAB6D8BE8FEB447B947 /* Pods-CupertinoInstantAlert-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		259B8AAE13D3099C9A4DE0254E343F6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
+			targetProxy = B5497DB08B2E5275540ABA2DE6D821CB /* PBXContainerItemProxy */;
+		};
+		AFAD3D861187B0DC905114C7EA867CE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 17DD5A19180046A5CA254AAE718A8A4F /* SwiftyJSON */;
+			targetProxy = 076AD261ED57895B770BEA8C576CCA6F /* PBXContainerItemProxy */;
+		};
+		F1DCF9D8D6C2FC79F5277EDCFDA9637D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			target = 00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */;
+			targetProxy = 2445B6FF4A52EC1391874F28B82DB4B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		045720E8C4EF191FE01E5BD8B6DB7E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E89A86BF20348948F26D3B0750D0E872 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0A29B6F510198AF64EFD762EF6FA97A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 237165196E7EA4196FAB890836F5BF00 /* Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		19AF432EB4A92E635696C0BC42A25D2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 564280D8A878B0166547953B4D367290 /* Pods-CupertinoInstantAlert.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CupertinoInstantAlert/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CupertinoInstantAlert/Pods-CupertinoInstantAlert.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CupertinoInstantAlert;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1A79E72B9321F3294B7E2E2B51D6055E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CFDF469124E0B39BEB68873566E55F1 /* Pods-CupertinoInstantAlert.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CupertinoInstantAlert/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CupertinoInstantAlert/Pods-CupertinoInstantAlert.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CupertinoInstantAlert;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		24F4FE5B5B850A2DEE1D84FA1C214706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50AFEBE860F9E5E0C7569479AD306CC0 /* Pods-CupertinoInstantAlertUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CupertinoInstantAlertUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CupertinoInstantAlertUITests/Pods-CupertinoInstantAlertUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CupertinoInstantAlertUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3AAA6E4D23C4AD4638C70EC7640A76AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69A38920997E038256DC9249CC7B9127 /* Pods-CupertinoInstantAlertTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CupertinoInstantAlertTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CupertinoInstantAlertTests/Pods-CupertinoInstantAlertTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CupertinoInstantAlertTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA94CEB6C6EF20D9813FA03CF02172BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13B832BDD6B2E8DA18E9BE267B76FCF6 /* Pods-CupertinoInstantAlertTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CupertinoInstantAlertTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CupertinoInstantAlertTests/Pods-CupertinoInstantAlertTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CupertinoInstantAlertTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D60CD877A708870E2BE96B83BA32F883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B455A55E202673653695BA5E779FD7A /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D987613906BF676C01ADD945321FE05E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91E48DEC22B33208F62220A1DF81F63B /* Pods-CupertinoInstantAlertUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CupertinoInstantAlertUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CupertinoInstantAlertUITests/Pods-CupertinoInstantAlertUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CupertinoInstantAlertUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4BBB23910A130D54D3E2E668CAF1EF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E89A86BF20348948F26D3B0750D0E872 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F066921CBDBDB5F45795E50FBC5AC972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B455A55E202673653695BA5E779FD7A /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F383079BFBF927813EA3613CFB679FDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 237165196E7EA4196FAB890836F5BF00 /* Alamofire.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F383079BFBF927813EA3613CFB679FDE /* Debug */,
+				0A29B6F510198AF64EFD762EF6FA97A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64A4EF39B0DF3068FA0B61AA0F6A1828 /* Build configuration list for PBXNativeTarget "Pods-CupertinoInstantAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19AF432EB4A92E635696C0BC42A25D2B /* Debug */,
+				1A79E72B9321F3294B7E2E2B51D6055E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2C9802ED862F1151C1B351781E97D39 /* Build configuration list for PBXNativeTarget "Pods-CupertinoInstantAlertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D987613906BF676C01ADD945321FE05E /* Debug */,
+				24F4FE5B5B850A2DEE1D84FA1C214706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60CD877A708870E2BE96B83BA32F883 /* Debug */,
+				F066921CBDBDB5F45795E50FBC5AC972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4A04C94FD0B7CDC121264E5D48F7FA0 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4BBB23910A130D54D3E2E668CAF1EF5 /* Debug */,
+				045720E8C4EF191FE01E5BD8B6DB7E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9520AAFD1B4505B141E71CDBA6C3905 /* Build configuration list for PBXNativeTarget "Pods-CupertinoInstantAlertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA94CEB6C6EF20D9813FA03CF02172BA /* Debug */,
+				3AAA6E4D23C4AD4638C70EC7640A76AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
