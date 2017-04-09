@@ -1,0 +1,119 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+body {
+	background-color:#eeeeee ;
+}
+#webSide{
+    width:100%;
+    min-height:100%;
+    background-color:#fff;
+    margin:0px;
+
+}
+#line{
+    width:100%;
+}
+
+#lowernav{
+	width: 75em;
+	float: right;
+}
+#navbar {
+	margin-bottom: 0px;
+}
+#hide{
+    width:0;
+    height:0;
+}
+
+
+
+#hostSetting{
+
+    height:100%;
+    position: fixed;
+    float: left;
+    margin: 0px;
+    background-image: url(../images/picture.jpg);
+    padding: 0;
+}
+
+#hostSetting .content {
+    height: 100%;
+    width: 37em;
+    background-color: #fff;
+}
+#hostPicture{
+    height:100%;
+    position: fixed;
+    float: left;
+    margin: 0px;
+
+}
+
+
+#playlist{
+
+    height:80%;
+    position: fixed;
+    background-color:#fff;
+    margin-top: 40px;
+    overflow: scroll;
+}
+#current{
+    height:10%;
+    background-color:#fff;
+    margin: 0px;
+}
+
+ #spacers{
+    height:50px;
+ }
+
+ #spacers2{
+    height:30px;
+ }
+ #playing{
+    margin-top:5px;
+    background-color:#fff;
+    height: 100px;
+
+ }
+ .content{
+    padding:auto;
+		width: 50em;
+ }
+
+ #partyName{
+    width:80%;
+    min-height: 400px;
+    background-color: #fff;
+    opacity: 0.8;
+    margin-left: 50px;
+    margin-top: 65px;
+
+ }
+
+#message{
+	color: #FB7479;
+}
+
+#question{
+	color: #D46267;
+}
+
+ #partyContent{
+    width:80%;
+    min-height: 100px;
+ }
+
+.interior{
+	margin: 10px;
+}
