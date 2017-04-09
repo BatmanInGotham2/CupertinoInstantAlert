@@ -10,13 +10,14 @@ $(function() {
   };
   firebase.initializeApp(config);
 
-  var ref = firebase.database().ref().child("incoming");
   var $val = "";
-  ref.on('child_added', function(snapshot) {
+	var ref = firebase.database().ref().child("incoming");
+
+	ref.on('child_added', function(snapshot) {
   	$val = snapshot.val().message;
-  	$('body').append('<p class=' + snapshot.key + ' id="message">' + snapshot.val().message + '<button id="accept">Accept</button></p>');
+  	$('.incoming-list').append('<p class=' + snapshot.key + ' id='+ snapshot.val().type + '>' + snapshot.val().message + '<button class=button_' + snapshot.key + ' id="accept">Accept</button></p>');
   	console.log(snapshot.toJSON());
-	$('.' + snapshot.key).click(function() {
+	$('.button_' + snapshot.key).click(function() {
 	  	var pushRef = firebase.database().ref().child("to-fix");
 	  	console.log(snapshot.toJSON());
 	    pushRef.push(snapshot.toJSON(), function(err) {
