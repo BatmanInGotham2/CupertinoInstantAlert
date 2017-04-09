@@ -54,6 +54,7 @@ class MapsViewController: UIViewController {
             snapshot in
             let object = JSON(snapshot.value!)
             //mapView.clear()
+            print(object)
             if(object["type"].string! == "message") {
             //print(subJson)
             var latitude = 0.0
@@ -77,10 +78,10 @@ class MapsViewController: UIViewController {
                 }
                 
                 if latitude != 0.0 {
-                
+                print("if")
                 var currentLoc = "https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins=37.3258,-122.0424&destinations=\(latitude),\(longitude)&key=AIzaSyBAe1D2F75M4aKbFI8Vu61no_SLBhm8yaA";
                 
-                
+                //print(longitude)
                 Alamofire.request(currentLoc).responseJSON { response in
                    // print(response.request)  // original URL request
                     //print(response.response) // HTTP URL response

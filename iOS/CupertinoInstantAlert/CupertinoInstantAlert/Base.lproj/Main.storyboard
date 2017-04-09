@@ -40,7 +40,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Message" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9FD-6G-7Zb">
-                                            <rect key="frame" x="38" y="68" width="288" height="21"/>
+                                            <rect key="frame" x="38" y="68" width="197" height="21"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
                                             <nil key="textColor"/>
@@ -241,6 +241,6 @@
     <inferredMetricsTieBreakers>
         <segue reference="6aE-1Z-49y"/>
         <segue reference="hOj-O9-nsO"/>
-        <segue reference="ieE-0d-fcT"/>
+        <segue reference="DwS-EX-wCF"/>
     </inferredMetricsTieBreakers>
 </document>
