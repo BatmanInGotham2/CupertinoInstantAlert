@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		707EF48453B0C867988D97AC /* Pods_CupertinoInstantAlert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3E871CD77DC8288DE15DBE /* Pods_CupertinoInstantAlert.framework */; };
+		A3AE4597BA0F3345640346FC /* Pods_CupertinoInstantAlertTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C8F7ED0D224FCD96EABE2D /* Pods_CupertinoInstantAlertTests.framework */; };
+		C714A6F51E9569D700750FCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C714A6F41E9569D700750FCC /* AppDelegate.swift */; };
+		C714A6FA1E9569D700750FCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C714A6F81E9569D700750FCC /* Main.storyboard */; };
+		C714A6FD1E9569D700750FCC /* CupertinoInstantAlert.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C714A6FB1E9569D700750FCC /* CupertinoInstantAlert.xcdatamodeld */; };
+		C714A6FF1E9569D700750FCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C714A6FE1E9569D700750FCC /* Assets.xcassets */; };
+		C714A7021E9569D700750FCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C714A7001E9569D700750FCC /* LaunchScreen.storyboard */; };
+		C714A70D1E9569D700750FCC /* CupertinoInstantAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C714A70C1E9569D700750FCC /* CupertinoInstantAlertTests.swift */; };
+		C714A7181E9569D700750FCC /* CupertinoInstantAlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C714A7171E9569D700750FCC /* CupertinoInstantAlertUITests.swift */; };
+		C714A7261E98BB6D00750FCC /* InfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C714A7251E98BB6D00750FCC /* InfoTableViewController.swift */; };
+		C714A7281E98BE6E00750FCC /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C714A7271E98BE6E00750FCC /* MapsViewController.swift */; };
+		C714A72A1E98BF5D00750FCC /* InfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C714A7291E98BF5D00750FCC /* InfoTableViewCell.swift */; };
+		C74A5DED1E99DEF10067C75B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C74A5DEC1E99DEF10067C75B /* GoogleService-Info.plist */; };
+		C74A5DEF1E9A04AD0067C75B /* QuestionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74A5DEE1E9A04AD0067C75B /* QuestionsTableViewController.swift */; };
+		C74A5DF11E9A04BB0067C75B /* QuestionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74A5DF01E9A04BB0067C75B /* QuestionsTableViewCell.swift */; };
+		FCC60A4D92CAEDA8B9A72E86 /* Pods_CupertinoInstantAlertUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C243D5343A91CC272AED5C /* Pods_CupertinoInstantAlertUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C714A7091E9569D700750FCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C714A6E91E9569D700750FCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C714A6F01E9569D700750FCC;
+			remoteInfo = CupertinoInstantAlert;
+		};
+		C714A7141E9569D700750FCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C714A6E91E9569D700750FCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C714A6F01E9569D700750FCC;
+			remoteInfo = CupertinoInstantAlert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C78A6D941E998582009471AB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		22C243D5343A91CC272AED5C /* Pods_CupertinoInstantAlertUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CupertinoInstantAlertUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4369EA2D9BAEAEFF5378F07A /* Pods-CupertinoInstantAlert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CupertinoInstantAlert.release.xcconfig"; path = "Pods/Target Support Files/Pods-CupertinoInstantAlert/Pods-CupertinoInstantAlert.release.xcconfig"; sourceTree = "<group>"; };
+		5F3E871CD77DC8288DE15DBE /* Pods_CupertinoInstantAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CupertinoInstantAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7C0058579740231ED04384 /* Pods-CupertinoInstantAlertTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CupertinoInstantAlertTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CupertinoInstantAlertTests/Pods-CupertinoInstantAlertTests.release.xcconfig"; sourceTree = "<group>"; };
+		826B651DAD0771DBFBD10221 /* Pods-CupertinoInstantAlertUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CupertinoInstantAlertUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CupertinoInstantAlertUITests/Pods-CupertinoInstantAlertUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D0DF2FF1A1D61C8EEF11AF2 /* Pods-CupertinoInstantAlert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CupertinoInstantAlert.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CupertinoInstantAlert/Pods-CupertinoInstantAlert.debug.xcconfig"; sourceTree = "<group>"; };
+		9D815B497D38D17BF18D15E3 /* Pods-CupertinoInstantAlertUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CupertinoInstantAlertUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CupertinoInstantAlertUITests/Pods-CupertinoInstantAlertUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BCD3FCF362C6858AC0804C4C /* Pods-CupertinoInstantAlertTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CupertinoInstantAlertTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CupertinoInstantAlertTests/Pods-CupertinoInstantAlertTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C714A6F11E9569D700750FCC /* CupertinoInstantAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupertinoInstantAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C714A6F41E9569D700750FCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C714A6F91E9569D700750FCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C714A6FC1E9569D700750FCC /* CupertinoInstantAlert.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CupertinoInstantAlert.xcdatamodel; sourceTree = "<group>"; };
+		C714A6FE1E9569D700750FCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C714A7011E9569D700750FCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C714A7031E9569D700750FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C714A7081E9569D700750FCC /* CupertinoInstantAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CupertinoInstantAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C714A70C1E9569D700750FCC /* CupertinoInstantAlertTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupertinoInstantAlertTests.swift; sourceTree = "<group>"; };
+		C714A70E1E9569D700750FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C714A7131E9569D700750FCC /* CupertinoInstantAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CupertinoInstantAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C714A7171E9569D700750FCC /* CupertinoInstantAlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupertinoInstantAlertUITests.swift; sourceTree = "<group>"; };
+		C714A7191E9569D700750FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C714A7251E98BB6D00750FCC /* InfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoTableViewController.swift; sourceTree = "<group>"; };
+		C714A7271E98BE6E00750FCC /* MapsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
+		C714A7291E98BF5D00750FCC /* InfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
+		C74A5DEC1E99DEF10067C75B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C74A5DEE1E9A04AD0067C75B /* QuestionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsTableViewController.swift; sourceTree = "<group>"; };
+		C74A5DF01E9A04BB0067C75B /* QuestionsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsTableViewCell.swift; sourceTree = "<group>"; };
+		F8C8F7ED0D224FCD96EABE2D /* Pods_CupertinoInstantAlertTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CupertinoInstantAlertTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C714A6EE1E9569D700750FCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707EF48453B0C867988D97AC /* Pods_CupertinoInstantAlert.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C714A7051E9569D700750FCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3AE4597BA0F3345640346FC /* Pods_CupertinoInstantAlertTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C714A7101E9569D700750FCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC60A4D92CAEDA8B9A72E86 /* Pods_CupertinoInstantAlertUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12B77473F9700241FA70A205 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F3E871CD77DC8288DE15DBE /* Pods_CupertinoInstantAlert.framework */,
+				F8C8F7ED0D224FCD96EABE2D /* Pods_CupertinoInstantAlertTests.framework */,
+				22C243D5343A91CC272AED5C /* Pods_CupertinoInstantAlertUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C714A6E81E9569D700750FCC = {
+			isa = PBXGroup;
+			children = (
+				C714A6F31E9569D700750FCC /* CupertinoInstantAlert */,
+				C714A70B1E9569D700750FCC /* CupertinoInstantAlertTests */,
+				C714A7161E9569D700750FCC /* CupertinoInstantAlertUITests */,
+				C714A6F21E9569D700750FCC /* Products */,
+				F9D84F5CA3568F759F1F1408 /* Pods */,
+				12B77473F9700241FA70A205 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C714A6F21E9569D700750FCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C714A6F11E9569D700750FCC /* CupertinoInstantAlert.app */,
+				C714A7081E9569D700750FCC /* CupertinoInstantAlertTests.xctest */,
+				C714A7131E9569D700750FCC /* CupertinoInstantAlertUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C714A6F31E9569D700750FCC /* CupertinoInstantAlert */ = {
+			isa = PBXGroup;
+			children = (
+				C714A6F41E9569D700750FCC /* AppDelegate.swift */,
+				C714A7271E98BE6E00750FCC /* MapsViewController.swift */,
+				C714A7251E98BB6D00750FCC /* InfoTableViewController.swift */,
+				C714A7291E98BF5D00750FCC /* InfoTableViewCell.swift */,
+				C74A5DEE1E9A04AD0067C75B /* QuestionsTableViewController.swift */,
+				C74A5DF01E9A04BB0067C75B /* QuestionsTableViewCell.swift */,
+				C714A6F81E9569D700750FCC /* Main.storyboard */,
+				C714A6FE1E9569D700750FCC /* Assets.xcassets */,
+				C714A7001E9569D700750FCC /* LaunchScreen.storyboard */,
+				C74A5DEC1E99DEF10067C75B /* GoogleService-Info.plist */,
+				C714A7031E9569D700750FCC /* Info.plist */,
+				C714A6FB1E9569D700750FCC /* CupertinoInstantAlert.xcdatamodeld */,
+			);
+			path = CupertinoInstantAlert;
+			sourceTree = "<group>";
+		};
+		C714A70B1E9569D700750FCC /* CupertinoInstantAlertTests */ = {
+			isa = PBXGroup;
+			children = (
+				C714A70C1E9569D700750FCC /* CupertinoInstantAlertTests.swift */,
+				C714A70E1E9569D700750FCC /* Info.plist */,
+			);
+			path = CupertinoInstantAlertTests;
+			sourceTree = "<group>";
+		};
+		C714A7161E9569D700750FCC /* CupertinoInstantAlertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C714A7171E9569D700750FCC /* CupertinoInstantAlertUITests.swift */,
+				C714A7191E9569D700750FCC /* Info.plist */,
+			);
+			path = CupertinoInstantAlertUITests;
+			sourceTree = "<group>";
+		};
+		F9D84F5CA3568F759F1F1408 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D0DF2FF1A1D61C8EEF11AF2 /* Pods-CupertinoInstantAlert.debug.xcconfig */,
+				4369EA2D9BAEAEFF5378F07A /* Pods-CupertinoInstantAlert.release.xcconfig */,
+				BCD3FCF362C6858AC0804C4C /* Pods-CupertinoInstantAlertTests.debug.xcconfig */,
+				7E7C0058579740231ED04384 /* Pods-CupertinoInstantAlertTests.release.xcconfig */,
+				826B651DAD0771DBFBD10221 /* Pods-CupertinoInstantAlertUITests.debug.xcconfig */,
+				9D815B497D38D17BF18D15E3 /* Pods-CupertinoInstantAlertUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C714A6F01E9569D700750FCC /* CupertinoInstantAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C714A71C1E9569D700750FCC /* Build configuration list for PBXNativeTarget "CupertinoInstantAlert" */;
+			buildPhases = (
+				EA2514B9D296BE490002CEC6 /* [CP] Check Pods Manifest.lock */,
+				C714A6ED1E9569D700750FCC /* Sources */,
+				C714A6EE1E9569D700750FCC /* Frameworks */,
+				C714A6EF1E9569D700750FCC /* Resources */,
+				E9561CE8CE3818833A5A3668 /* [CP] Embed Pods Frameworks */,
+				BB0AD82DC9AF7382B92AFDF3 /* [CP] Copy Pods Resources */,
+				C78A6D941E998582009471AB /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CupertinoInstantAlert;
+			productName = CupertinoInstantAlert;
+			productReference = C714A6F11E9569D700750FCC /* CupertinoInstantAlert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C714A7071E9569D700750FCC /* CupertinoInstantAlertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C714A71F1E9569D700750FCC /* Build configuration list for PBXNativeTarget "CupertinoInstantAlertTests" */;
+			buildPhases = (
+				387B2463E4C5BD0DE5E09CEB /* [CP] Check Pods Manifest.lock */,
+				C714A7041E9569D700750FCC /* Sources */,
+				C714A7051E9569D700750FCC /* Frameworks */,
+				C714A7061E9569D700750FCC /* Resources */,
+				D2D7B3CA2D32388109A4F9C0 /* [CP] Embed Pods Frameworks */,
+				09A026F38E8161664E0A8299 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C714A70A1E9569D700750FCC /* PBXTargetDependency */,
+			);
+			name = CupertinoInstantAlertTests;
+			productName = CupertinoInstantAlertTests;
+			productReference = C714A7081E9569D700750FCC /* CupertinoInstantAlertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C714A7121E9569D700750FCC /* CupertinoInstantAlertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C714A7221E9569D700750FCC /* Build configuration list for PBXNativeTarget "CupertinoInstantAlertUITests" */;
+			buildPhases = (
+				E14554874AE4B5EB305EB8A6 /* [CP] Check Pods Manifest.lock */,
+				C714A70F1E9569D700750FCC /* Sources */,
+				C714A7101E9569D700750FCC /* Frameworks */,
+				C714A7111E9569D700750FCC /* Resources */,
+				ECDAC9359F66E8588F8F68A0 /* [CP] Embed Pods Frameworks */,
+				8F3F3426B2B205F23F67EE4F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C714A7151E9569D700750FCC /* PBXTargetDependency */,
+			);
+			name = CupertinoInstantAlertUITests;
+			productName = CupertinoInstantAlertUITests;
+			productReference = C714A7131E9569D700750FCC /* CupertinoInstantAlertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C714A6E91E9569D700750FCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Gautam Ajjarapu";
+				TargetAttributes = {
+					C714A6F01E9569D700750FCC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BFV362S4K7;
+						ProvisioningStyle = Automatic;
+					};
+					C714A7071E9569D700750FCC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BFV362S4K7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C714A6F01E9569D700750FCC;
+					};
+					C714A7121E9569D700750FCC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BFV362S4K7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C714A6F01E9569D700750FCC;
+					};
+				};
+			};
+			buildConfigurationList = C714A6EC1E9569D700750FCC /* Build configuration list for PBXProject "CupertinoInstantAlert" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C714A6E81E9569D700750FCC;
+			productRefGroup = C714A6F21E9569D700750FCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C714A6F01E9569D700750FCC /* CupertinoInstantAlert */,
+				C714A7071E9569D700750FCC /* CupertinoInstantAlertTests */,
+				C714A7121E9569D700750FCC /* CupertinoInstantAlertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C714A6EF1E9569D700750FCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C714A7021E9569D700750FCC /* LaunchScreen.storyboard in Resources */,
+				C74A5DED1E99DEF10067C75B /* GoogleService-Info.plist in Resources */,
+				C714A6FF1E9569D700750FCC /* Assets.xcassets in Resources */,
+				C714A6FA1E9569D700750FCC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C714A7061E9569D700750FCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C714A7111E9569D700750FCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09A026F38E8161664E0A8299 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CupertinoInstantAlertTests/Pods-CupertinoInstantAlertTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		387B2463E4C5BD0DE5E09CEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8F3F3426B2B205F23F67EE4F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CupertinoInstantAlertUITests/Pods-CupertinoInstantAlertUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB0AD82DC9AF7382B92AFDF3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CupertinoInstantAlert/Pods-CupertinoInstantAlert-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2D7B3CA2D32388109A4F9C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CupertinoInstantAlertTests/Pods-CupertinoInstantAlertTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E14554874AE4B5EB305EB8A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E9561CE8CE3818833A5A3668 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CupertinoInstantAlert/Pods-CupertinoInstantAlert-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA2514B9D296BE490002CEC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ECDAC9359F66E8588F8F68A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CupertinoInstantAlertUITests/Pods-CupertinoInstantAlertUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C714A6ED1E9569D700750FCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C714A6FD1E9569D700750FCC /* CupertinoInstantAlert.xcdatamodeld in Sources */,
+				C74A5DEF1E9A04AD0067C75B /* QuestionsTableViewController.swift in Sources */,
+				C714A72A1E98BF5D00750FCC /* InfoTableViewCell.swift in Sources */,
+				C714A6F51E9569D700750FCC /* AppDelegate.swift in Sources */,
+				C714A7261E98BB6D00750FCC /* InfoTableViewController.swift in Sources */,
+				C74A5DF11E9A04BB0067C75B /* QuestionsTableViewCell.swift in Sources */,
+				C714A7281E98BE6E00750FCC /* MapsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C714A7041E9569D700750FCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C714A70D1E9569D700750FCC /* CupertinoInstantAlertTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C714A70F1E9569D700750FCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C714A7181E9569D700750FCC /* CupertinoInstantAlertUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C714A70A1E9569D700750FCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C714A6F01E9569D700750FCC /* CupertinoInstantAlert */;
+			targetProxy = C714A7091E9569D700750FCC /* PBXContainerItemProxy */;
+		};
+		C714A7151E9569D700750FCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C714A6F01E9569D700750FCC /* CupertinoInstantAlert */;
+			targetProxy = C714A7141E9569D700750FCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C714A6F81E9569D700750FCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C714A6F91E9569D700750FCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C714A7001E9569D700750FCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C714A7011E9569D700750FCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C714A71A1E9569D700750FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C714A71B1E9569D700750FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C714A71D1E9569D700750FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D0DF2FF1A1D61C8EEF11AF2 /* Pods-CupertinoInstantAlert.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BFV362S4K7;
+				INFOPLIST_FILE = CupertinoInstantAlert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gautam.CupertinoInstantAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C714A71E1E9569D700750FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4369EA2D9BAEAEFF5378F07A /* Pods-CupertinoInstantAlert.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BFV362S4K7;
+				INFOPLIST_FILE = CupertinoInstantAlert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gautam.CupertinoInstantAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C714A7201E9569D700750FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCD3FCF362C6858AC0804C4C /* Pods-CupertinoInstantAlertTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BFV362S4K7;
+				INFOPLIST_FILE = CupertinoInstantAlertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gautam.CupertinoInstantAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CupertinoInstantAlert.app/CupertinoInstantAlert";
+			};
+			name = Debug;
+		};
+		C714A7211E9569D700750FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E7C0058579740231ED04384 /* Pods-CupertinoInstantAlertTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BFV362S4K7;
+				INFOPLIST_FILE = CupertinoInstantAlertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gautam.CupertinoInstantAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CupertinoInstantAlert.app/CupertinoInstantAlert";
+			};
+			name = Release;
+		};
+		C714A7231E9569D700750FCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 826B651DAD0771DBFBD10221 /* Pods-CupertinoInstantAlertUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BFV362S4K7;
+				INFOPLIST_FILE = CupertinoInstantAlertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gautam.CupertinoInstantAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CupertinoInstantAlert;
+			};
+			name = Debug;
+		};
+		C714A7241E9569D700750FCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D815B497D38D17BF18D15E3 /* Pods-CupertinoInstantAlertUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BFV362S4K7;
+				INFOPLIST_FILE = CupertinoInstantAlertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Gautam.CupertinoInstantAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CupertinoInstantAlert;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C714A6EC1E9569D700750FCC /* Build configuration list for PBXProject "CupertinoInstantAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C714A71A1E9569D700750FCC /* Debug */,
+				C714A71B1E9569D700750FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C714A71C1E9569D700750FCC /* Build configuration list for PBXNativeTarget "CupertinoInstantAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C714A71D1E9569D700750FCC /* Debug */,
+				C714A71E1E9569D700750FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C714A71F1E9569D700750FCC /* Build configuration list for PBXNativeTarget "CupertinoInstantAlertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C714A7201E9569D700750FCC /* Debug */,
+				C714A7211E9569D700750FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C714A7221E9569D700750FCC /* Build configuration list for PBXNativeTarget "CupertinoInstantAlertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C714A7231E9569D700750FCC /* Debug */,
+				C714A7241E9569D700750FCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C714A6FB1E9569D700750FCC /* CupertinoInstantAlert.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C714A6FC1E9569D700750FCC /* CupertinoInstantAlert.xcdatamodel */,
+			);
+			currentVersion = C714A6FC1E9569D700750FCC /* CupertinoInstantAlert.xcdatamodel */;
+			path = CupertinoInstantAlert.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C714A6E91E9569D700750FCC /* Project object */;
+}

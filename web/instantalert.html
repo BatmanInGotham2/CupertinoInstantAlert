@@ -1,0 +1,89 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <meta charset="utf-8"/>
+  <title>Instant Alert</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body >
+  <nav class="nav-extended">
+<div class="nav-wrapper">
+  <a href="#" class="brand-logo"></a>
+  <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+  <ul id="nav-mobile" class="right hide-on-med-and-down">
+    <li><a href="sass.html">Settings</a></li>
+    <li><a href="badges.html">Cupertino</a></li>
+    <li><a href="collapsible.html">Profile</a></li>
+  </ul>
+  <ul class="side-nav" id="mobile-demo">
+    <li><a href="sass.html">Sass</a></li>
+    <li><a href="badges.html">Components</a></li>
+    <li><a href="collapsible.html">JavaScript</a></li>
+  </ul>
+</div>
+<div class="nav-content " id="lowernav">
+  <ul class="tabs tabs-transparent">
+    <li class="tab" id="action_item"><a >Action Items</a></li>
+    <li class="tab" id="questions"><a  >Questions</a></li>
+    <li class="tab" id="notifications"><a >Notifications</a></li>
+  </ul>
+</div>
+</nav>
+<div class="row"></div>
+
+<div class="row">
+    <div class="card-panel col s4 m4 l4"  id="hostSetting">
+            <div id="partyName">
+              <div class="incoming-list" id="">
+                <!--<p  class="collection-item waves-effect" id="question">When is the light coming back?</p>
+                <p  class="collection-item waves-effect" id="message">Accident near Memorial Park</p> -->
+              </div>
+            </div>
+	  </div>
+
+    <div class="col s8 push-s4 to-fix-list" id="playlist">
+
+   <!--List END-->
+       </div>
+</div>
+
+
+
+
+</div>
+
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAejHuSzCXbL-xGCdUP4yT9knpjgoiKLqQ&libraries=places"></script>
+  <script>function geolocate() {
+       if (navigator.geolocation) {
+         navigator.geolocation.getCurrentPosition(function(position) {
+           var geolocation = {
+             lat: position.coords.latitude,
+             lng: position.coords.longitude
+           };
+           var circle = new google.maps.Circle({
+             center: geolocation,
+             radius: position.coords.accuracy
+           });
+           autocomplete.setBounds(circle.getBounds());
+         });
+       }
+     };</script>
+  <script type="text/javascript" src="app.js"></script>
+  <script type="text/javascript" src="push_list.js"></script>
+  <script type="text/javascript" src="questions.js"></script>
+  <script type="text/javascript" src="push.js"></script>
+  </body>
+</html>

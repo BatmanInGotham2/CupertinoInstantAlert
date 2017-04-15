@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "c6022c5182f85336b2672565bbe4b919"
+build_time: [545030968, 468458000]
+inputs:
+  "/Users/gautam/Desktop/Tech/Computer Programming/Swift/CupertinoInstantAlert/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [544999804, 0]

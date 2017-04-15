@@ -22,7 +22,7 @@ body {
 }
 
 #lowernav{
-	width: 75em;
+    width: 100%;
 	float: right;
 }
 #navbar {
@@ -58,15 +58,11 @@ body {
 
 }
 
-
-#playlist{
-
-    height:80%;
-    position: fixed;
-    background-color:#fff;
-    margin-top: 40px;
-    overflow: scroll;
+#playlist {
+    overflow-y: scroll;
+    background-color: #eee;
 }
+
 #current{
     height:10%;
     background-color:#fff;
